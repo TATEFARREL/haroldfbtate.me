@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#07110f"/>
+  <g stroke="#e9f1ed" stroke-opacity=".05">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M100 0v630M200 0v630M300 0v630M400 0v630M500 0v630M600 0v630M700 0v630M800 0v630M900 0v630M1000 0v630M1100 0v630"/>
+  </g>
+  <circle cx="1010" cy="80" r="280" fill="#1c4739" opacity=".32"/>
+  <text x="82" y="102" fill="#b8f34a" font-family="monospace" font-size="22" letter-spacing="3">HAROLD F. B. TATE</text>
+  <text x="78" y="260" fill="#f3f2ea" font-family="Arial, sans-serif" font-weight="700" font-size="92" letter-spacing="-5">Python backends.</text>
+  <text x="78" y="365" fill="#f3f2ea" font-family="Arial, sans-serif" font-weight="700" font-size="92" letter-spacing="-5">Applied AI.</text>
+  <text x="82" y="470" fill="#b8f34a" font-family="Georgia, serif" font-style="italic" font-size="90">Built to work.</text>
+  <text x="82" y="558" fill="#86958e" font-family="monospace" font-size="19" letter-spacing="2">BACKEND · COMPUTER VISION · AI WORKFLOWS</text>
+</svg>
