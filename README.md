@@ -1,7 +1,19 @@
 # Harold F. B. Tate — Portfolio
 
-A responsive technical field-notebook portfolio for Harold F. B. Tate, focused on
-Python backend, applied AI, and cyber-physical engineering work.
+A responsive, multi-page technical portfolio for Harold F. B. Tate, focused on Python
+backend, applied AI, and cyber-physical engineering work.
+
+## Site map
+
+| Route | Purpose |
+| --- | --- |
+| `/` | Concise recruiter overview, availability, and featured work |
+| `/work` | Selected project index |
+| `/work/magic-chess` | Full evidence-led Magic Chess case study |
+| `/about` | Experience, capabilities, education, CV, and contact |
+| `/notebook` | Curated engineering design notes |
+
+Unknown paths render an in-app 404 page.
 
 ## Local development
 
@@ -26,7 +38,7 @@ The production output is written to `dist/`.
 
 ## Deploy
 
-This is a static Vite site and can be deployed to any static host.
+This is a Vite single-page application and can be deployed to any static host.
 
 1. Run `npm run build`.
 2. Publish the `dist/` directory.
@@ -41,6 +53,17 @@ Common provider settings:
 | Node version | `22` |
 
 No runtime environment variables or external APIs are required.
+
+### SPA fallback
+
+The host must rewrite requests that do not match a real static file to `/index.html`.
+This allows direct visits and refreshes on routes such as `/work/magic-chess`.
+
+- **Netlify:** add `/* /index.html 200` to `public/_redirects`.
+- **Vercel:** configure a catch-all rewrite to `/index.html`.
+- **Nginx:** use `try_files $uri $uri/ /index.html;`.
+
+Vite's development and preview servers already provide this fallback.
 
 ## Content sources
 
