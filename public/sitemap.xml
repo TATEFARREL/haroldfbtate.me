@@ -15,14 +15,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url><loc>https://haroldfbtate.me/work/les-marinettes</loc><priority>0.8</priority></url>
+  <url><loc>https://haroldfbtate.me/work/afidi</loc><priority>0.8</priority></url>
+  <url><loc>https://haroldfbtate.me/work/distributed-slae-solver</loc><priority>0.7</priority></url>
+  <url><loc>https://haroldfbtate.me/work/catalog-retrieval-evaluation-lab</loc><priority>0.6</priority></url>
+  <url><loc>https://haroldfbtate.me/work/async-carbon-batch-api</loc><priority>0.6</priority></url>
   <url>
     <loc>https://haroldfbtate.me/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://haroldfbtate.me/notebook</loc>
+    <loc>https://haroldfbtate.me/notes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url><loc>https://haroldfbtate.me/notes/sensorless-board-tradeoffs</loc><priority>0.6</priority></url>
+  <url><loc>https://haroldfbtate.me/notes/physical-system-boundaries</loc><priority>0.6</priority></url>
+  <url><loc>https://haroldfbtate.me/notes/evidence-before-decoration</loc><priority>0.6</priority></url>
 </urlset>
